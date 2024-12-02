@@ -30,4 +30,4 @@ endpoints:
     dependencies:
       connectionReferences:
       - name: config#test#conn
-        resourceRef: service:/apifirstdemo/appointmentmgt-backend/v1/5c69c/PUBLIC
+        resourceRef: service:/apifirstdemo/appointmentmgt-backend/v1/5c69c/PUBLIC1
