@@ -29,5 +29,5 @@ endpoints:
     # +optional Outgoing connection details for the component.
     dependencies:
       connectionReferences:
-      - name: config#test#conn
-        resourceRef: service:/apifirstdemo/appointmentmgt-backend/v1/5c69c/PUBLIC1
+      - name: invalid connection name-v1.1.
+        resourceRef: service:/apifirstdemo/appointmentmgt-backend/v1/5c69c/PUBLIC
