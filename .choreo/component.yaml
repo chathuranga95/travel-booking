@@ -27,7 +27,7 @@ endpoints:
     schemaFilePath: openapi.json
 
     # +optional Outgoing connection details for the component.
-    dependencies:
-      connectionReferences:
-      - name: invalid connection name-v1.1.
-        resourceRef: service:/apifirstdemo/appointmentmgt-backend/v1/5c69c/PUBLIC
+dependencies:
+  connectionReferences:
+  - name: invalid connection name-v1.1.
+    resourceRef: service:/apifirstdemo/appointmentmgt-backend/v1/5c69c/PUBLIC
