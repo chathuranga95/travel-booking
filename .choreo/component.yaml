@@ -26,8 +26,8 @@ endpoints:
     # The path should be relative to the docker context.
     schemaFilePath: openapi.yaml
 
-  # +optional Outgoing connection details for the component.
-  dependencies:
-    connectionReferences:
-    - name: config#test#conn
-      resourceRef: service:/apifirstdemo/appointmentmgt-backend/v1/5c69c/PUBLIC
+    # +optional Outgoing connection details for the component.
+    dependencies:
+      connectionReferences:
+      - name: config#test#conn
+        resourceRef: service:/apifirstdemo/appointmentmgt-backend/v1/5c69c/PUBLIC
