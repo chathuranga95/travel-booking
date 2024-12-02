@@ -20,7 +20,7 @@ spec:
       schemaFilePath: openapi.json
   outbound:
     serviceReferences:
-    - name: choreo:///apifirst/apifirstdemo/appointmentmgt-backend/5c69c/v1/PUBLIC
+    - name: choreo:///apifirst/apifirstdemo/appointmentmgt-backend/5c69c/v1/PUBLIC1
       connectionConfig: 01efb06f-1ad8-10de-a12a-0b818d377492
       env:
       - from: ServiceURL
